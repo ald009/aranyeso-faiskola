@@ -1,13 +1,7 @@
 body {
       background-image: url("img/andlers-ash-tree-nursery-hillier-aerial-view.jpg");
-      background-size: cover;
-      background-position: center;
       background-repeat: no-repeat;
-      background-color: green;
       font-family: Arial, Helvetica, sans-serif;
-      color: white;
-      margin: 0;
-      padding: 20px;
     }
 
     h1 {
