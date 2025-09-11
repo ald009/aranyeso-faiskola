@@ -1,4 +1,5 @@
 body {
   background-image: url("/img/andlers-ash-tree-nursery-hillier-aerial-view.jpg");
+  backdrop-filter: blur(5px);
   
 }
