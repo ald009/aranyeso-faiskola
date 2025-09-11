@@ -16,3 +16,6 @@ body {
   transition: 0.4s;
 }
 
+.blur{
+  backdrop-filter: blur(5px);
+}
