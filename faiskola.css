@@ -67,7 +67,7 @@ body {
     }
 
 .accordion1  {
-  background-color: #eee;
+  background-color: rgb(255, 255, 255, 0.8);
   color: #444;
   cursor: url('https://emoji.discadia.com/emojis/9ee09652-9017-46d8-be33-70e75fcefa06.PNG') 64 64, wait;
   padding: 18px;
@@ -82,7 +82,7 @@ body {
 
 
  .accordion1:hover {
-  background-color: #97978F;
+  background-color: rgb(255, 255, 255);
 }
 
 .blur{
@@ -94,5 +94,6 @@ body {
   text-align: center;
   color: white;
    backdrop-filter: blur(5px);
+   
 }
 
