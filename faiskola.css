@@ -3,11 +3,8 @@ body {
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
-      background-color: green;
       font-family: Arial, Helvetica, sans-serif;
-      color: white;
-      margin: 0;
-      padding: 20px;
+      
     }
 
     h1 {
@@ -39,7 +36,7 @@ body {
       height: 100%;
       position: relative;
       transform-style: preserve-3d;
-      transition: transform 0.6s;
+      transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.6s;
       cursor: pointer;
     }
 
@@ -62,29 +59,29 @@ body {
     }
 
     .card-front {
-      background-color: rgba(128,128,128,0.8); /* szürke áttetsző */
+      /* background-color: rgba(128,128,128,0.8); szürke áttetsző */
       color: white;
     }
 
     .card-back {
       background-color: rgba(255, 235, 205, 0.9); /* blanchedalmond áttetsző */
-      color: #333;
+      color:white;
       transform: rotateY(180deg);
     }
 
-.accordion {
-  background-color: #eee;
-  color: #444;
-  cursor: url('https://emoji.discadia.com/emojis/9ee09652-9017-46d8-be33-70e75fcefa06.PNG') 64 64, wait;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
+    .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: url('https://emoji.discadia.com/emojis/9ee09652-9017-46d8-be33-70e75fcefa06.PNG') 64 64, wait;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    }
 
-.blur{
-  backdrop-filter: blur(5px);
-}
+    .blur{
+    backdrop-filter: blur(5px);
+    }
