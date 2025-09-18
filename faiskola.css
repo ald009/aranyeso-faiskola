@@ -116,6 +116,11 @@ p {
   transform: rotateY(180deg);
 }
 
+.card-back img{
+  width: 180px;
+  height: 180px;
+}
+
 header {
   background-color: rgba(43, 71, 36, 0.8);
   padding: 40px;
@@ -206,9 +211,9 @@ input[type=submit]:hover {
 
 .vidi iframe{ 
   display: flex;
-  justify-content: center;  
-  align-items: center;      
-  height: 400px;            
+  margin:0px auto 20px auto;
+display:block
+          
 }
 
 .gyumolcs {
