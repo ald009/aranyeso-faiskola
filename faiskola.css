@@ -188,3 +188,10 @@ input[type=submit]:hover {
   padding: 4px 20px;
 
 }
+
+.vidi iframe{ 
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 400px;            
+}
