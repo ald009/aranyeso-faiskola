@@ -204,6 +204,13 @@ input[type=submit]:hover {
 }
 
 
+.vidi iframe{ 
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 400px;            
+}
+
 .gyumolcs {
   background-color: white;
   padding: 18px;
@@ -218,4 +225,5 @@ input[type=submit]:hover {
   padding: 5px;
   background-color: #5DBB63;
   border-radius: 10px;
+
 }
