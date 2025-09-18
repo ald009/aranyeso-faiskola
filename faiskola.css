@@ -9,15 +9,18 @@ body {
 
     }
 
-    h1 {
+    .headerh1 {
       text-align: center;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
+      color: white;
     }
 
-    p {
+    .headerp {
+      font-size: 20px;
       max-width: 600px;
-      margin: 0 auto 40px auto;
+      margin: 0px auto 5px auto;
       text-align: center;
+      color:white
     }
 
     .cards-wrapper {
@@ -34,7 +37,7 @@ body {
       height: 200px;
     }
 .kozeprekene{
-  margin-top:2%;
+  margin-top:3%;
   float:left;
   margin-left:17.2%;
 }
