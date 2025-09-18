@@ -193,16 +193,12 @@ input[type=submit]:hover {
 }
 
 .nava:hover {
-  color: white;
-}
-.nava:hover{
-  /* color: #ffc847; */
+  color: #ffc847;
   background-color: rgb(255, 255, 255, 0.6);
 }
 
 .navactivekep {
   background-color: rgb(231, 229, 229, 0.5);
-
   padding: 4px 20px;
 
 }
