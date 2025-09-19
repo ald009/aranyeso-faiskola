@@ -9,6 +9,31 @@ body {
 
     }
 
+    ::-webkit-scrollbar{
+      background: rgb(75, 92, 60);
+      width: 12px;
+      height: 14px;
+    }
+    ::-webkit-scrollbar-button{
+      background: #ffc847;
+      border-radius: 2px;
+    }
+    ::-webkit-scrollbar-corner{
+      background-image: url("https://cdn.britannica.com/58/129958-050-C0EF01A4/Adolf-Hitler-1933.jpg");
+      background-size:cover;
+    
+    }
+
+     ::-webkit-scrollbar-thumb{
+      background: #ffc847;
+      border-radius: 5px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover{
+      border:rgba(255, 255, 255, 0.5) 3px solid;
+      cursor: wait;
+    }
+
     .termekbg{
       background-color:rgb(75, 92, 60) ;
     }
@@ -263,6 +288,8 @@ display:block
 }
 
 .gyumolcs table{
+  border-radius: 20px;
+  border-collapse:separate;
   text-align: center;
   container-type: block;
   margin: 20px auto 20px auto ;
@@ -270,5 +297,5 @@ display:block
   font-size: 20px;
   width: 2100px;
   border: rgb(255, 200, 71, 0.4) 2px solid;
-  background-color: rgba(72, 110, 63, 0.8);
+  background-color: rgba(77, 95, 65, 0.8);
 }
