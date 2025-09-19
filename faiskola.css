@@ -1,10 +1,16 @@
 body {
+    background-color: rgba(43, 71, 36);
       background-image: url("img/andlers-ash-tree-nursery-hillier-aerial-view.jpg");
-      background-repeat:space;
+      background-repeat:no-repeat;
       background-size: 120%;
+  
       font-family: Arial, Helvetica, sans-serif;
 
 
+    }
+
+    .termekbg{
+      background-color:rgb(75, 92, 60) ;
     }
 
     .headerh1 {
@@ -144,6 +150,10 @@ header {
 
 }
 
+.teto .headerh1{
+  text-shadow: black 3px 3px 5px;
+}
+
 .headertext {
   font-size: 40px;
   color: #e7e5e5;
@@ -234,12 +244,12 @@ display:block
   color: white;
   font-weight: bold;
   padding:20px;
-  margin-left: 43%;
-  margin-right: 43%;
+  margin-left: 30%;
+  margin-right: 30%;
   text-shadow: black 5px 5px 5px;
   background-color:rgb(255, 200, 71, 0.3);
   
-  border-radius: 20px;
+  border-radius:10px;
 }
 
 .gyumolcsbelso {
