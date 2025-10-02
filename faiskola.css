@@ -5,7 +5,9 @@ body {
       background-size: 120%;
        position: relative;
       font-family: Arial, Helvetica, sans-serif;
-
+      display: flex;
+      flex-direction: column;
+      min-height: 130vh;
 
     }
 
@@ -308,7 +310,12 @@ footer{
   width: 100%;
   padding: 0.8%;
   background-color: rgba(61, 61, 61, 0.8);
-  position: absolute;
+  
+  margin: 0;
+    min-height: 85px;
+    margin-top: auto;
+    
+
   
 }
 footer p {
