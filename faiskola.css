@@ -3,7 +3,7 @@ body {
       background-image: url("img/andlers-ash-tree-nursery-hillier-aerial-view.jpg");
       background-repeat:no-repeat;
       background-size: 120%;
-  
+       position: relative;
       font-family: Arial, Helvetica, sans-serif;
 
 
@@ -205,11 +205,14 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  transition: all 0.3s ;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: green;
+  background-color: #2fc990;
+  border-radius: 10px;
+  padding: 13px 20px;
 }
 
 /* Add a background color and some padding around the form */
@@ -269,8 +272,8 @@ display:block
   color: white;
   font-weight: bold;
   padding:20px;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
   text-shadow: black 5px 5px 5px;
   background-color:rgb(255, 200, 71, 0.3);
   
@@ -298,4 +301,18 @@ display:block
   width: 2100px;
   border: rgb(255, 200, 71, 0.4) 2px solid;
   background-color: rgba(77, 95, 65, 0.8);
+  max-width: 100%;
+}
+
+footer{
+  width: 100%;
+  padding: 0.8%;
+  background-color: rgba(61, 61, 61, 0.8);
+  position: absolute;
+  
+}
+footer p {
+  color: white;
+  font-weight: bold;
+
 }
