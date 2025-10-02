@@ -323,3 +323,55 @@ footer p {
   font-weight: bold;
 
 }
+
+
+
+  .about {
+            background: white;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .contact {
+            background: #3d2817;
+            color: white;
+        }
+
+        .contact h2 {
+            color: white;
+        }
+
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-item {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 10px;
+
+        }
+
+        .contact-item h3 {
+            margin-bottom: 2rem;
+            color: #d4a574;
+        }
