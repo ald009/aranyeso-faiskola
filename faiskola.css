@@ -71,6 +71,7 @@ body {
   margin-top:3%;
   float:left;
   margin-left:17.2%;
+  
 }
 
 h1 {
@@ -222,6 +223,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #708238;
   padding: 20px;
+  margin: 100px
 }
 
 .nav {
@@ -256,9 +258,9 @@ input[type=submit]:hover {
 
 
 .vidi iframe{ 
-  display: flex;
-  margin:0px auto 20px auto;
-display:block
+  margin:400px auto 50px auto;
+display:block;
+
           
 }
 
