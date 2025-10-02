@@ -303,7 +303,7 @@ display:block
   width: 2100px;
   border: rgb(255, 200, 71, 0.4) 2px solid;
   background-color: rgba(77, 95, 65, 0.8);
-  max-width: 100%;
+  max-width: 80%;
 }
 
 footer{
