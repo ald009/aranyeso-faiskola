@@ -1,66 +1,68 @@
 body {
-    background-color: rgba(43, 71, 36);
-      background-image: url("img/andlers-ash-tree-nursery-hillier-aerial-view.jpg");
-      background-repeat:no-repeat;
-      background-size: 120%;
-       position: relative;
-      font-family: Arial, Helvetica, sans-serif;
-      display: flex;
-      flex-direction: column;
-      min-height: 130vh;
+  background-color: rgba(43, 71, 36);
+  background-image: url("img/andlers-ash-tree-nursery-hillier-aerial-view.jpg");
+  background-repeat: no-repeat;
+  background-size: 120%;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 130vh;
 
-    }
+}
 
 
 
-    ::-webkit-scrollbar{
-      background: rgb(75, 92, 60);
-      width: 12px;
-      height: 14px;
-    }
-    ::-webkit-scrollbar-button{
-      background: #ffc847;
-      border-radius: 2px;
-    }
-    ::-webkit-scrollbar-corner{
-      background-image: url("https://cdn.britannica.com/58/129958-050-C0EF01A4/Adolf-Hitler-1933.jpg");
-      background-size:cover;
-    
-    }
+::-webkit-scrollbar {
+  background: rgb(75, 92, 60);
+  width: 12px;
+  height: 14px;
+}
 
-     ::-webkit-scrollbar-thumb{
-      background: #ffc847;
-      border-radius: 5px;
-    }
+::-webkit-scrollbar-button {
+  background: #ffc847;
+  border-radius: 2px;
+}
 
-    ::-webkit-scrollbar-thumb:hover{
-      border:rgba(255, 255, 255, 0.5) 3px solid;
-      cursor: wait;
-    }
+::-webkit-scrollbar-corner {
+  background-image: url("https://cdn.britannica.com/58/129958-050-C0EF01A4/Adolf-Hitler-1933.jpg");
+  background-size: cover;
 
-    .termekbg{
-      background-color:rgb(75, 92, 60) ;
-    }
+}
 
-    .masbg{
-      background-color: rgb(82, 105, 62) ;
-    }
+::-webkit-scrollbar-thumb {
+  background: #ffc847;
+  border-radius: 5px;
+}
 
-    .headerh1 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: white;
-    }
+::-webkit-scrollbar-thumb:hover {
+  border: rgba(255, 255, 255, 0.5) 3px solid;
+  cursor: wait;
+}
 
-    .headerp {
-      font-size: 20px;
-      max-width: 600px;
-      margin: 0px auto 5px auto;
-      text-align: center;
-      color:white
-    }
+.termekbg {
+  background-color: rgb(75, 92, 60);
+}
 
-  
+.masbg {
+  background-color: rgb(82, 105, 62);
+}
+
+.headerh1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.headerp {
+  font-size: 20px;
+  max-width: 600px;
+  margin: 0px auto 5px auto;
+  text-align: center;
+  color: white
+}
+
+
 
 h1 {
   text-align: center;
@@ -100,7 +102,7 @@ p {
   position: relative;
   transform-style: preserve-3d;
   transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.6s;
-  cursor:help;
+  cursor: help;
 
 }
 
@@ -138,7 +140,7 @@ p {
   transform: rotateY(180deg);
 }
 
-.card-back img{
+.card-back img {
   width: 180px;
   height: 180px;
 }
@@ -161,12 +163,12 @@ header {
   border-bottom: white 2px solid;
   text-align: center;
   color: white;
-  background-image: linear-gradient(transparent,transparent, rgba(84, 139, 71, 0.5));
+  background-image: linear-gradient(transparent, transparent, rgba(84, 139, 71, 0.5));
   backdrop-filter: blur(5px);
 
 }
 
-.teto .headerh1{
+.teto .headerh1 {
   text-shadow: black 3px 3px 5px;
 }
 
@@ -177,15 +179,25 @@ header {
   margin-left: 30px;
 }
 
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ffc847; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ffc847;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -196,7 +208,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  transition: all 0.3s ;
+  transition: all 0.3s;
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
@@ -236,7 +248,7 @@ input[type=submit]:hover {
   background-color: rgb(255, 255, 255, 0.6);
 }
 
-.navkep{
+.navkep {
   padding: 4px 20px;
 }
 
@@ -246,31 +258,32 @@ input[type=submit]:hover {
 }
 
 
-.vidi iframe{ 
-  margin:400px auto 50px auto;
-display:block;
+.vidi iframe {
+  margin: 400px auto 50px auto;
+  display: block;
 
-          
+
 }
 
 .gyumolcs {
-  background-image: linear-gradient(transparent,transparent, rgb(255, 200, 71, 0.4),transparent, transparent);
+  background-image: linear-gradient(transparent, transparent, rgb(255, 200, 71, 0.4), transparent, transparent);
   padding: 18px;
   width: 100%;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+
 .gyumolcs h2 {
   color: white;
   font-weight: bold;
-  padding:20px;
+  padding: 20px;
   margin-left: 35%;
   margin-right: 35%;
   text-shadow: black 5px 5px 5px;
-  background-color:rgb(255, 200, 71, 0.3);
-  
-  border-radius:10px;
+  background-color: rgb(255, 200, 71, 0.3);
+
+  border-radius: 10px;
 }
 
 .gyumolcsbelso {
@@ -283,16 +296,16 @@ display:block;
   width: auto;
   height: 360px;
 
-  
+
 
 }
 
-.gyumolcs table{
+.gyumolcs table {
   border-radius: 20px;
-  border-collapse:separate;
+  border-collapse: separate;
   text-align: center;
   container-type: block;
-  margin: 20px auto 20px auto ;
+  margin: 20px auto 20px auto;
   color: white;
   font-size: 20px;
   width: 2100px;
@@ -301,72 +314,55 @@ display:block;
   max-width: 80%;
 }
 
-footer{
+footer {
   width: 100%;
   padding: 0.8%;
   background-color: rgba(61, 61, 61, 0.9);
-  
-  margin: 0;
-    min-height: 85px;
-    margin-top: auto;
-    
 
-  
+  margin: 0;
+  min-height: 85px;
+  margin-top: auto;
+
+
+
 }
+
 footer p {
   color: white;
   font-weight: bold;
 
 }
 
+.contact {
+  background-image: linear-gradient(rgb(73, 88, 62), rgb(54, 73, 40));
+  color: white;
+  width: 100%;
+  margin: 0;
+  margin-top: auto;
+  position: relative;
 
+}
 
-  .about {
-            background: white;
-        }
+.contact h2 {
+  color: white;
+  padding: 20px 0px 0px 30px;
+}
 
-        .features {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 2rem 2rem 2rem;
+}
 
-        .feature {
-            text-align: center;
-            padding: 2rem;
-        }
+.contact-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
 
-        .feature-icon {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-        }
+}
 
-        .contact {
-            background: #3d2817;
-            color: white;
-        }
-
-        .contact h2 {
-            color: white;
-        }
-
-        .contact-info {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .contact-item {
-            background: rgba(255,255,255,0.1);
-            padding: 2rem;
-            border-radius: 10px;
-
-        }
-
-        .contact-item h3 {
-            margin-bottom: 2rem;
-            color: #d4a574;
-        }
+.contact-item h3 {
+  margin-bottom: 2rem;
+  color: rgb(201, 224, 180);
+}
