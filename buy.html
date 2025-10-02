@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aranyeső Faiskola</title>
@@ -8,7 +11,7 @@
     <link rel="stylesheet" href="faiskola.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<body class="masbg">
+<body class="termekbg">
     <header>
         <h1 class="headertext">Aranyeső faiskola</h1>
     </header>
@@ -33,6 +36,11 @@
     <label for="lname">Vezetéknév</label>
     <input type="text" id="lname" name="lastname" placeholder="pl.:(Lakatos)">
 
+    <label for="lak">Lakcím</label>
+    <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d811.3158858143091!2d19.839254076068645!3d46.70862784134016!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4743ebbc735ee1d5%3A0xd9ad7774323565eb!2zS2lza3VuZsOpbGVneWjDoXppIFN6ZW50IEJlbmVkZWsgUEcgS8OpdCBUYW7DrXTDoXNpIE55ZWx2xbEgVGVjaG5pa3VtIMOpcyBLb2xsw6lnaXVt!5e1!3m2!1shu!2shu!4v1759389776919!5m2!1shu!2shu" width="1100px" height="340px" style="border: 2px solid black;border-radius: 15px;" allowfullscreen="true" loading="lazy"  referrerpolicy="no-referrer-when-downgrade" aria-hidden="false"></iframe>
+    </div>
+    <br>
     <label for="gender">Nem</label>
     <select id="gender" name="gender">
       <option value="">Válassz!</option>
@@ -54,5 +62,11 @@
         <p>Aranyeső faiskola &copy;</p>
         <p>Az összes jog fenntartva és elintézve a Nemzeti Adó és Vámhivatallal</p>
     </footer>
+
+
+    <script
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=maps,marker"
+    defer
+></script>
 </body>
 </html>
