@@ -1,6 +1,7 @@
 body {
   background-color: rgba(43, 71, 36);
   background-image: url("img/andlers-ash-tree-nursery-hillier-aerial-view.jpg");
+ backdrop-filter: blur(10px);
   background-repeat: no-repeat;
   background-size: 120%;
   position: relative;
@@ -8,9 +9,12 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 130vh;
-
+transition: all 0.3s;
 }
 
+body:hover{
+   backdrop-filter: blur(0px);
+}
 
 
 ::-webkit-scrollbar {
